@@ -101,6 +101,13 @@ input {
 }
 
 
+
+.user2 {
+    visibility: hidden;
+    display: none;
+}
+
+
 @media (max-width: 1300px) {
     .padre {
         height: 50%;
@@ -109,7 +116,7 @@ input {
         align-items:center;
         margin-right: 6%;
         
-       padding-top: 470px;
+       padding-top: 320px;
     }
 
     input {
@@ -139,6 +146,15 @@ input {
         border: none;
     
     } 
+
+    .user {
+        visibility: hidden;
+    }
+
+    .user2 {
+        display: inline;
+        visibility: visible;
+    }
 
    
 }
